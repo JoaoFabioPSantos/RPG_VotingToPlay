@@ -318,9 +318,6 @@
                 // Isso pode exigir ajustes na implantação do GAS para permitir CORS.
                 // Mas vamos tentar manter a simplicidade do GAS aqui.
                 mode: 'cors', // Necessário para ler o JSON de resposta
-                headers: {
-                    'Content-Type': 'application/json',
-                },
                 body: JSON.stringify(dados)
             });
 
