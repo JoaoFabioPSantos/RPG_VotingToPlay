@@ -86,6 +86,7 @@ const WEB_APP_URL = "https://script.google.com/macros/s/AKfycbzSY24m-WDFeqaavZCO
         });
     }
 
+    
     // Listener principal para o evento de login
     senhaInput.addEventListener("keydown", async function(e) {
         if (e.key === "Enter") {
